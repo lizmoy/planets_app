@@ -1,9 +1,9 @@
 <h1>All Moons!</h1>
 
-<ul>
+<div class="moons-container">
 <% @moons.each do |moon| %>
-  <li><%= link_to moon.name, moon_path(moon)%></li>
+  <div class="circle"><%= link_to moon.name, moon_path(moon)%></li></div>
 <% end %>
-</ul>
+</div>
 
-<div id="all"><%= link_to "All Planets", planets_path %></div>
+<%= link_to "All Planets", planets_path, class: "all-planets" %>
