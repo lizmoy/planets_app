@@ -5,4 +5,5 @@
 <h3>Orbit Period: <%= @planet.orbit_period %></h3>
 
 <div id="all"><%= link_to "All Planets", planets_path %></div>
+<%= link_to "Moons", planet_moons_path(@planet) %> 
 

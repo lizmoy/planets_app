@@ -2,7 +2,7 @@
 
 <ul>
 <% @moons.each do |moon| %>
-  <li><%= link_to moon.name, moon_path(moon)%></li>
+  <li><%= link_to moon.name, planet_moon_path(@planet.id, moon.id) %></li>
 <% end %>
 </ul>
 

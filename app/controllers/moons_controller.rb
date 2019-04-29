@@ -1,9 +1,11 @@
 class MoonsController < ApplicationController
     def index
-        @moons = Moon.all
+        @planet = Planet.find(params[:planet_id])
+        @moons = @planet.moons
     end
 
     def show
+        @planet = Planet.find(params[:planet_id])
         @moon = Moon.find(params[:id])
     end
 end
