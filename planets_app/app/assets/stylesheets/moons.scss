@@ -30,25 +30,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
-.all-moons,
-.all-planets {
+#random,
+#all {
     font-family: 'Poppins', sans-serif;
-}
-
-.circle {
-    border-radius: 50%;
-    border: 1px black solid;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.moons-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-bottom: 50px;
 }

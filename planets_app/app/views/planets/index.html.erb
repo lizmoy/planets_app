@@ -1,9 +1,9 @@
 <h1>All Planets!</h1>
 
-<div class="planets-container">
+<ul>
 <% @planets.each do |planet| %>
-  <div class="circle"><%= link_to planet.name, planet_path(planet)%></div>
+  <li><%= link_to planet.name, planet_path(planet)%></li>
 <% end %>
-</div>
+</ul>
 
-<%= link_to "Random Planet", planets_random_path, class: "random" %>
+<div id="random"><%= link_to "Random Planet", planets_random_path %></div>
