@@ -15,7 +15,7 @@ For this assignment you'll be making a baby rails app about PLANETS!!!!. Gotta g
 
 ## Part 1
 
-Read the [Active Record associations Guide](https://guides.rubyonrails.org/association_basics.html#the-has-many-association). Please.
+Read the [Active Record associations Guide](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association). Please.
 
 ## Part 2
 - Create a rails app named planets_app EX:
