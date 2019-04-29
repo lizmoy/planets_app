@@ -1,0 +1,36 @@
+// Place all the styles related to the Moons controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    height: 100%;
+    // background-color: #90cfec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#random,
+#all {
+    font-family: 'Poppins', sans-serif;
+}
