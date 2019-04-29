@@ -696,3 +696,13 @@ Processing by PlanetsController#index as HTML
 Completed 200 OK in 686ms (Views: 675.3ms | ActiveRecord: 5.7ms)
 
 
+Started GET "/planets/2" for ::1 at 2019-04-29 10:48:48 -0400
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:7
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 18.7ms | ActiveRecord: 6.1ms)
+
+
